@@ -84,54 +84,78 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    display:inline;
+    position: relative;
+    top: 20px
 }
 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
+    position: relative;
+    top: 10px;
 }
+
 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
-}
+    position: relative;
+    top: 15px;
+} 
+
 
 .benefit-cost {
-    margin-bottom: 32px;
+    margin-bottom: 60px;
     color: #ffffff;
+    position: relative;
+    top: 15px;
+    bottom: 50px;
 }
 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
+    position: relative;
+    top: 10px
 }
 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
+    position: relative;
+    top: 20px
 }
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+    position: relative;
+    top: 20px
 }
 
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    position: relative;
+    top: 20px
 }
 
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    position: relative;
+    top: 20px
 }
 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    position: relative;
+    top: 20px
 }
 
 .search-engine-optimization {
@@ -141,6 +165,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    position: relative;
+    top: 20px
 }
 
 .online-reputation-management {
@@ -150,6 +176,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    position: relative;
+    top: 20px
 }
 
 .social-media-marketing {
@@ -159,6 +187,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    position: relative;
+    top: 20px
 }
 
 .search-engine-optimization img {
@@ -189,10 +219,17 @@ p {
 }
 
 footer {
+    box-sizing: border-box;
+    width: 500px;
+    display: block;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color:black;
+    position: absolute;
+    top: 600px;
+    right: 300px;
 }
 
 footer h2 {
